@@ -1,0 +1,27 @@
+model,reaction,law,A_s_inv,E_kJ_mol,shape_param,shape_value,shape_fixed,ref_K,char_yield,near_bounds,variant,fixed_fiber
+M1_1Mat_1stOrder,Matrix decomposition (n=1),ro,8.325110162335341e8,141.89959134495422,n,1.0,true,630.0,0.5829065456825706,,B1_M1_1stOrder,true
+M1_1Mat_1stOrder,Char oxidation (n=1),ro,1.662621756049915e7,150.41563984466697,n,1.0,true,850.0,0.0,,B1_M1_1stOrder,true
+M1_1Mat_1stOrder,Carbon-fiber oxidation (n=1),ro,35660.69228398108,150.64914271657577,n,1.0,true,1050.0,0.0,,B1_M1_1stOrder,true
+M2_1Mat_GeomOx,Matrix decomposition (free n),ro,1.1680344244547856e14,200.128447420366,n,3.8891045769267447,false,630.0,0.48255904505019237,,B2_M2_GeomOx,true
+M2_1Mat_GeomOx,"Char oxidation (R3, n=2/3)",ro,9.442361832651768e6,149.743288750597,n,0.6666666666666666,true,850.0,0.0,,B2_M2_GeomOx,true
+M2_1Mat_GeomOx,"Carbon-fiber oxidation (R2, n=1/2)",ro,5420.992141514336,136.72687607778565,n,0.5,true,1050.0,0.0,,B2_M2_GeomOx,true
+M2_1Mat_GeomOx,Matrix decomposition (free n),ro,7.403410442916752e13,197.85944565984178,n,3.9040048799309126,false,630.0,0.4766438100479558,,B3_M2_MAP_CharPrior,true
+M2_1Mat_GeomOx,"Char oxidation (R3, n=2/3)",ro,2.630958034658597e7,156.3975388902358,n,0.6666666666666666,true,850.0,0.0,,B3_M2_MAP_CharPrior,true
+M2_1Mat_GeomOx,"Carbon-fiber oxidation (R2, n=1/2)",ro,5388.541352026141,136.67180782414198,n,0.5,true,1050.0,0.0,,B3_M2_MAP_CharPrior,true
+M2b_2Mat1st_GeomOx,Matrix population 1 decomposition (n=1),ro,3.2356667187544582e6,104.0131282526676,n,1.0,true,585.0,2.1061036796505603e-10,char_yield1,B4_M2b_2Mat1st_GeomOx,true
+M2b_2Mat1st_GeomOx,Matrix population 2 decomposition (n=1),ro,2.8025644779552164e18,266.6260979362349,n,1.0,true,660.0,0.6625689543244523,char_yield1,B4_M2b_2Mat1st_GeomOx,true
+M2b_2Mat1st_GeomOx,"Char oxidation (R3, n=2/3)",ro,3.8002991722247642e6,143.7149970534024,n,0.6666666666666666,true,850.0,0.0,char_yield1,B4_M2b_2Mat1st_GeomOx,true
+M2b_2Mat1st_GeomOx,"Carbon-fiber oxidation (R2, n=1/2)",ro,5937.7494861424075,137.54636244682388,n,0.5,true,1050.0,0.0,char_yield1,B4_M2b_2Mat1st_GeomOx,true
+M3_1Mat_RPMOx,Matrix decomposition (free n),ro,9.084173390016008e12,187.55663564666634,n,2.8990245866865747,false,630.0,0.524852534890124,psi2,B5_M3_RPMOx,true
+M3_1Mat_RPMOx,Char oxidation (Random Pore),rpm,3.099948306887073e7,154.83627591342528,psi,3.67662520867181e-14,false,850.0,0.0,psi2,B5_M3_RPMOx,true
+M3_1Mat_RPMOx,Carbon-fiber oxidation (Random Pore),rpm,2949.881950199814,133.6858158799529,psi,4.472504812084814,false,1050.0,0.0,psi2,B5_M3_RPMOx,true
+M5_2Mat_FreeOrder_Cold,Matrix population 1 decomposition (free n),ro,6.119759851022986e6,106.475178011347,n,1.4504565295261933,false,585.0,5.650025912405407e-11,"n2, char_yield1",B6_M5_FreeOrder_Cold,true
+M5_2Mat_FreeOrder_Cold,Matrix population 2 decomposition (free n),ro,5.492231537471713e30,416.3383838923058,n,3.999999999999978,false,660.0,0.6311208026561782,"n2, char_yield1",B6_M5_FreeOrder_Cold,true
+M5_2Mat_FreeOrder_Cold,Char oxidation (free n),ro,1.5506585004422177e7,150.4956032346638,n,1.012300964090305,false,850.0,0.0,"n2, char_yield1",B6_M5_FreeOrder_Cold,true
+M5_2Mat_FreeOrder_Cold,Carbon-fiber oxidation (free n),ro,3488.9974923060718,133.77147645825406,n,0.32420896035243524,false,1050.0,0.0,"n2, char_yield1",B6_M5_FreeOrder_Cold,true
+M2_1Mat_GeomOx,Matrix decomposition (free n),ro,6.1805153980319805e13,196.77578816103886,n,3.9999999998334803,false,630.0,0.47756195484925573,n1,B2_BlindFiber,false
+M2_1Mat_GeomOx,"Char oxidation (R3, n=2/3)",ro,9.290889181428598e6,149.71530245761042,n,0.6666666666666666,true,850.0,0.0,n1,B2_BlindFiber,false
+M2_1Mat_GeomOx,"Carbon-fiber oxidation (R2, n=1/2)",ro,5612.755819751073,137.04339083211258,n,0.5,true,1050.0,0.0,n1,B2_BlindFiber,false
+M2_1Mat_GeomOx,Matrix decomposition (free n),ro,3.386627413665119e13,193.77329954772927,n,3.999999999852577,false,630.0,0.47159611355041864,n1,B3_MAP_BlindFiber,false
+M2_1Mat_GeomOx,"Char oxidation (R3, n=2/3)",ro,2.6270620019111633e7,156.46837369481318,n,0.6666666666666666,true,850.0,0.0,n1,B3_MAP_BlindFiber,false
+M2_1Mat_GeomOx,"Carbon-fiber oxidation (R2, n=1/2)",ro,5583.918621558393,136.99573086303104,n,0.5,true,1050.0,0.0,n1,B3_MAP_BlindFiber,false

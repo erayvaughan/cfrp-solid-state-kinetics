@@ -1,0 +1,15 @@
+model,reaction,law,A_s_inv,E_kJ_mol,shape_param,shape_value,shape_fixed,ref_K,char_yield,near_bounds,variant
+M2_1Mat_GeomOx,Matrix decomposition (free n),ro,4.723112756955208e7,119.54376411485647,n,3.9999999999998477,false,630.0,0.20691869233815197,n1,M2_Unconstrained_Ref
+M2_1Mat_GeomOx,"Char oxidation (R3, n=2/3)",ro,4.170023800016377e23,396.24256882613594,n,0.6666666666666666,true,850.0,0.0,n1,M2_Unconstrained_Ref
+M2_1Mat_GeomOx,"Carbon-fiber oxidation (R2, n=1/2)",ro,175343.7304067095,148.36309086644076,n,0.5,true,1050.0,0.0,n1,M2_Unconstrained_Ref
+M2_1Mat_GeomOx,Matrix decomposition (free n),ro,5.284093747467729e7,120.15490646123357,n,3.9999999999998406,false,630.0,0.2074126353648693,n1,M2_MAP_CharPrior
+M2_1Mat_GeomOx,"Char oxidation (R3, n=2/3)",ro,9.066020132530743e7,164.99826560609426,n,0.6666666666666666,true,850.0,0.0,n1,M2_MAP_CharPrior
+M2_1Mat_GeomOx,"Carbon-fiber oxidation (R2, n=1/2)",ro,173337.63006502087,148.27823199364232,n,0.5,true,1050.0,0.0,n1,M2_MAP_CharPrior
+M2b_2Mat1st_GeomOx,Matrix population 1 decomposition (n=1),ro,206317.20221012514,92.01893404826613,n,1.0,true,585.0,3.844382085314626e-13,char_yield1,M2b_2Mat1st_GeomOx
+M2b_2Mat1st_GeomOx,Matrix population 2 decomposition (n=1),ro,5.383985844475338e6,133.79208600761672,n,1.0,true,660.0,0.3280301522249891,char_yield1,M2b_2Mat1st_GeomOx
+M2b_2Mat1st_GeomOx,"Char oxidation (R3, n=2/3)",ro,2.3639078905885954e25,425.4374570625411,n,0.6666666666666666,true,850.0,0.0,char_yield1,M2b_2Mat1st_GeomOx
+M2b_2Mat1st_GeomOx,"Carbon-fiber oxidation (R2, n=1/2)",ro,131176.2967602899,146.22468568894882,n,0.5,true,1050.0,0.0,char_yield1,M2b_2Mat1st_GeomOx
+M2b_2Mat1st_GeomOx,Matrix population 1 decomposition (n=1),ro,174495.98321337183,91.51811313903892,n,1.0,true,585.0,2.2920284805795027e-14,char_yield1,M2b_2Mat1st_MAP_CharPrior
+M2b_2Mat1st_GeomOx,Matrix population 2 decomposition (n=1),ro,1.7604224309152722e8,155.49365083351063,n,1.0,true,660.0,0.33996927967862034,char_yield1,M2b_2Mat1st_MAP_CharPrior
+M2b_2Mat1st_GeomOx,"Char oxidation (R3, n=2/3)",ro,5.255818301900667e7,161.85132273987085,n,0.6666666666666666,true,850.0,0.0,char_yield1,M2b_2Mat1st_MAP_CharPrior
+M2b_2Mat1st_GeomOx,"Carbon-fiber oxidation (R2, n=1/2)",ro,132960.80880000527,146.3340680158826,n,0.5,true,1050.0,0.0,char_yield1,M2b_2Mat1st_MAP_CharPrior

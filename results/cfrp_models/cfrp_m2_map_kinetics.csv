@@ -1,0 +1,4 @@
+model,reaction,law,A_s_inv,E_kJ_mol,shape_param,shape_value,shape_fixed,ref_K,char_yield,near_bounds,variant
+M2_1Mat_GeomOx,Matrix decomposition (free n),ro,5.284093747467729e7,120.15490646123357,n,3.9999999999998406,false,630.0,0.2074126353648693,n1,M2_MAP_CharPrior
+M2_1Mat_GeomOx,"Char oxidation (R3, n=2/3)",ro,9.066020132530743e7,164.99826560609426,n,0.6666666666666666,true,850.0,0.0,n1,M2_MAP_CharPrior
+M2_1Mat_GeomOx,"Carbon-fiber oxidation (R2, n=1/2)",ro,173337.63006502087,148.27823199364232,n,0.5,true,1050.0,0.0,n1,M2_MAP_CharPrior

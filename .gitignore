@@ -1,0 +1,12 @@
+# Julia / Python build & runtime environments
+.CondaPkg/
+.venv/
+__pycache__/
+*.py[cod]
+tmp/
+*.log
+
+# Heavy intermediate binary checkpoints
+*.jls
+_checkpoints/
+plots/
